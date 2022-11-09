@@ -1,0 +1,45 @@
+.text > span {
+  text-decoration: line-through;
+}
+.title-a {
+  text-decoration: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.underline {
+  text-decoration: underline;
+}
+
+.overline {
+  text-decoration: overline;
+}
+.justify {
+  text-align: left;
+}
+.indent {
+  text-indent: 50px;
+}
+.line-height {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.text-shadow {
+  text-shadow: 2px 2px 2px #000000, 24px 24px 5px gray;
+}
+pre {
+  font-family: 'Arial', 'Hekvetica', sans-serif;
+  color: 2a2a2a;
+  font-size: 16px;
+}
+pre::first-letter {
+  font-family: 'Tahoma', serif;
+  font-sie: 32px;
+  color: #f44336;
+}
